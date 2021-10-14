@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="40.283">
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="verify whether valid url is opening" time="4.5">
+        <system-out><![CDATA[Given open the chrome.......................................................passed
+When Enter the url..........................................................passed
+Then page is displayed......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="verify whether register button is working" time="7.383">
+        <system-out><![CDATA[Given user is on home page of demo web shop.................................passed
+When user clicks on Register_Button.........................................passed
+Then Register page is Displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="Checking registration feature with valid details" time="10">
+        <system-out><![CDATA[Given user is on registration page of demo_web_shop.........................passed
+When user enters Valid details..............................................passed
+And user clicks on register-button..........................................passed
+Then user is navigated to home page of demo web shop........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="Checking registration feature with valid details and invalid email" time="4.407">
+        <system-out><![CDATA[Given user is on Registration page of demo-web-shop.........................passed
+When user enters Valid details and invalid email............................passed
+And user clicks on register__button.........................................passed
+Then error messsage displays wrong email....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="Checking registration feature for password and confirm password" time="9.186">
+        <system-out><![CDATA[Given user is on Registration_page of demo web shop.........................passed
+When user enters Valid details mismatch passwords...........................passed
+And user clicks on register btn.............................................passed
+Then error messsage displays password mismatch..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the Registration Functionality of DemoWebShop" name="Checking registration feature for valid details and invalid password" time="4.58">
+        <system-out><![CDATA[Given user is on Register page of demo web shop.............................passed
+When user enters Valid details and invalid password.........................passed
+And user clicks on the register button......................................passed
+Then error messsage displays invalid password...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,343 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T14:50:41.709Z",
+        "line": 2,
+        "name": "verify whether valid url is opening",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;verify-whether-valid-url-is-opening",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070283600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the chrome",
+            "match": {
+              "location": "performers.UrlFunctionality.open_the_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2325042500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the url",
+            "match": {
+              "location": "performers.UrlFunctionality.enter_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32692000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "page is displayed",
+            "match": {
+              "location": "performers.UrlFunctionality.page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T14:50:46.220Z",
+        "line": 7,
+        "name": "verify whether register button is working",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;verify-whether-register-button-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6736960200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page of demo web shop",
+            "match": {
+              "location": "performers.RegisterButtonFunctional.user_is_on_home_page_of_demo_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 628322500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Register_Button",
+            "match": {
+              "location": "performers.RegisterButtonFunctional.user_clicks_on_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11970000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Register page is Displayed",
+            "match": {
+              "location": "performers.RegisterButtonFunctional.register_page_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T14:50:53.616Z",
+        "line": 12,
+        "name": "Checking registration feature with valid details",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;checking-registration-feature-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3169024300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on registration page of demo_web_shop",
+            "match": {
+              "location": "performers.ValidDetailsFunctionality.user_is_on_registration_page_of_demo_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1310499800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters Valid details",
+            "match": {
+              "location": "performers.ValidDetailsFunctionality.user_enters_Valid_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5506499100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on register-button",
+            "match": {
+              "location": "performers.ValidDetailsFunctionality.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5985000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is navigated to home page of demo web shop",
+            "match": {
+              "location": "performers.ValidDetailsFunctionality.user_is_navigated_to_home_page_of_demo_web_shop()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T14:51:03.620Z",
+        "line": 18,
+        "name": "Checking registration feature with valid details and invalid email",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;checking-registration-feature-with-valid-details-and-invalid-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3666238300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on Registration page of demo-web-shop",
+            "match": {
+              "location": "performers.InvalidEmailFunctionality.user_is_on_Registration_page_of_demo_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 570476500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters Valid details and invalid email",
+            "match": {
+              "location": "performers.InvalidEmailFunctionality.user_enters_Valid_details_and_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116689200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on register__button",
+            "match": {
+              "location": "performers.InvalidEmailFunctionality.user_clicks_on_register__button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47871500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "error messsage displays wrong email",
+            "match": {
+              "location": "performers.InvalidEmailFunctionality.error_messsage_displays_wrong_email()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T14:51:08.030Z",
+        "line": 24,
+        "name": "Checking registration feature for password and confirm password",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;checking-registration-feature-for-password-and-confirm-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317884600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on Registration_page of demo web shop",
+            "match": {
+              "location": "performers.MismatchPasswordFunctionlity.user_is_on_Registration_page_of_demo_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 687151600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters Valid details mismatch passwords",
+            "match": {
+              "location": "performers.MismatchPasswordFunctionlity.user_enters_Valid_details_mismatch_passwords()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5141298700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on register btn",
+            "match": {
+              "location": "performers.MismatchPasswordFunctionlity.user_clicks_on_register_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33875600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "error messsage displays password mismatch",
+            "match": {
+              "location": "performers.MismatchPasswordFunctionlity.error_messsage_displays_password_mismatch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T14:51:17.218Z",
+        "line": 30,
+        "name": "Checking registration feature for valid details and invalid password",
+        "description": "",
+        "id": "testing-the-registration-functionality-of-demowebshop;checking-registration-feature-for-valid-details-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3691383800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on Register page of demo web shop",
+            "match": {
+              "location": "performers.InvalidPasswordFunctionality.user_is_on_Register_page_of_demo_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 748998500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters Valid details and invalid password",
+            "match": {
+              "location": "performers.InvalidPasswordFunctionality.user_enters_Valid_details_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96742600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on the register button",
+            "match": {
+              "location": "performers.InvalidPasswordFunctionality.user_clicks_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37898600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "error messsage displays invalid password",
+            "match": {
+              "location": "performers.InvalidPasswordFunctionality.error_messsage_displays_invalid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the Registration Functionality of DemoWebShop",
+    "description": "",
+    "id": "testing-the-registration-functionality-of-demowebshop",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Check.feature",
+    "tags": []
+  }
+]
